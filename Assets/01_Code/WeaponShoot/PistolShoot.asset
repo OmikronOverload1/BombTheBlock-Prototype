@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f526bfbfc0ab7448c3a1842ce709e4, type: 3}
+  m_Name: PistolShoot
+  m_EditorClassIdentifier: 
+  HitMask:
+    serializedVersion: 2
+    m_Bits: 72
+  Spread: {x: 0.1, y: 0.1, z: 0.1}
+  FireRate: 0.25
+  Damage: 25
+  Recoil: 2
+  RecoilRecovery: 1
+  BulletsPerShot: 1
+  ShootSound: {fileID: 8300000, guid: a845060369297634f89545f19e66c8aa, type: 3}
+  SoundVariations: []
+  PitchMin: 0.9
+  PitchMax: 1.1
+  VolumeMin: 0.8
+  VolumeMax: 1
+  UseLowPassFilter: 0
+  UseReverbFilter: 0
+  UseRandomVariations: 0
